@@ -1,0 +1,75 @@
+body,
+menu {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+/* menu {
+  background-color: black;
+  width: 10em;
+  height: 100%;
+}
+
+menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+menu li {
+  padding: 1rem;
+  list-style: none;
+}
+menu a {
+  text-decoration: none;
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+menu a:hover {
+  color: white; }*/
+
+#hero {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 800px;
+  background-size: cover;
+  width: 100%;
+}
+
+.content {
+  font-size: 1.4em;
+  font-stretch: expanded;
+  height: 8em;
+  width: 100%;
+  padding: 1em 8em;
+
+  text-align: center;
+}
+
+.hand {
+    height: 18em;
+ align-items: flex-start;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  border: solid 1px;
+  margin: 5px;
+  padding: px;
+}
+.card-body {
+  flex-grow: 1;
+}
