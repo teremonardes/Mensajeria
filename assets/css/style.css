@@ -5,6 +5,7 @@ menu {
   display: flex;
 
 
+
 }
 
 /* menu {
@@ -38,28 +39,32 @@ menu a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     min-height: 100vh;
-    border-style: solid
+    border-style: solid 1px
     ;
     border-color: #CDC3E6;
-  
+    flex-basis: 25%;
+   
+   
   }
 
   
-  .card {
-    display: flex;
-    flex-direction: row;
-    width: 10em;
-    margin: 0%;
-   border-style: solid
-    ;
-    border-color: #CDC3E6;
-    flex-grow: 1;
-  }
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 15em;
+border: #CDC3E6 solid 1px;
+
+
+  flex-grow: 1;
+ 
+}
+
+
 
   .thumbnail {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 100px;  /* Rounded border */
-      width: 100px; /* Set a small width */
+      width: 80px; /* Set a small width */
   }
   
   /* Add a hover effect (blue shadow) */
@@ -73,15 +78,59 @@ menu a:hover {
     width: 50px; /* Set a small width */
   }
 
+  .card-header {
+    font-size: 16px;
+  }
+
+.estado {
+    font-size: 12px;
+    color: #BEC1BB;
+}
+  .iconos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 5px;
+  }
+
+  i {
+    padding: 3px;
+  }
+
+
   .card-body {
     flex-grow: 1;
-  
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
   }
   .texto {
     display: flex;
     flex-direction: column;
- 
+    justify-content: center;
+    padding: 10px;
 
+
+  }
+
+  .botón {
+    width: 15em;
+    border: #CDC3E6 solid 1px;
+    padding: 2em;
+  }
+
+  .nuevochat:hover {
+    background-color: #CDC3E6;
+  }
+
+  .nuevochat {
+    text-align: center;
+    background-color: #A491D2;
+    padding:1em;
+  color: white;
+
+  
   }
   
 
@@ -89,7 +138,7 @@ menu a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
- width: 100%;
+flex-basis: 76%;
 }
 
 .content {
