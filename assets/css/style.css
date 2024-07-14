@@ -3,6 +3,8 @@ menu {
   margin: 0;
   font-family: "Roboto", sans-serif;
   display: flex;
+
+
 }
 
 /* menu {
@@ -31,45 +33,80 @@ menu a {
 menu a:hover {
   color: white; }*/
 
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+    border-style: solid
+    ;
+    border-color: #CDC3E6;
+  
+  }
+
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 10em;
+    margin: 0%;
+   border-style: solid
+    ;
+    border-color: #CDC3E6;
+    flex-grow: 1;
+  }
+
+  .thumbnail {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 100px;  /* Rounded border */
+      width: 100px; /* Set a small width */
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .tinythumbnail {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 100px;  /* Rounded border */
+    width: 50px; /* Set a small width */
+  }
+
+  .card-body {
+    flex-grow: 1;
+  
+  }
+  .texto {
+    display: flex;
+    flex-direction: column;
+ 
+
+  }
+  
+
 #hero {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  height: 800px;
-  background-size: cover;
-  width: 100%;
+ width: 100%;
 }
 
 .content {
   font-size: 1.4em;
-  font-stretch: expanded;
-  height: 8em;
   width: 100%;
   padding: 1em 8em;
-
   text-align: center;
 }
+h1 {
+  font-size: 45px;
+}
 
+p {
+  font-size: 16px;
+}
 .hand {
-    height: 18em;
- align-items: flex-start;
+  height: 18em;
+
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  min-height: 100vh;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  width: 10em;
-  border: solid 1px;
-  margin: 5px;
-  padding: px;
-}
-.card-body {
-  flex-grow: 1;
-}
